@@ -1,7 +1,7 @@
 function Layout() {
     return (
         <div>
-            <p>Layout</p>
+            Layout
         </div>
     )
 }
