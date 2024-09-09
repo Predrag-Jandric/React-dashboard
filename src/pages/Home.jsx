@@ -10,6 +10,7 @@ function Home() {
         <div className="w-full ml-16 md:ml-56">
           <Header />
           <Outlet />
+          Home
         </div>
       </div>
     </div>
