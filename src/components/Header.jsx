@@ -2,7 +2,7 @@ import { GoBell } from "react-icons/go";
 
 function Header() {
   return (
-    <div className="flex justify-between items-center p-4">
+    <div className="flex justify-between items-center p-4 bg-stone-200">
       <div>
         <h1 className="text-xs">Welcome</h1>
         <p className="text-xl font-semibold">Alexia</p>

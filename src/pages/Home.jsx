@@ -40,29 +40,6 @@ const projects = [
   },
 ];
 
-const clients = [
-  {
-    name: "ABC company",
-    title: "CEO",
-    date: "2024-04",
-  },
-  {
-    name: "ABC company",
-    title: "CEO",
-    date: "2024-04",
-  },
-  {
-    name: "ABC company",
-    title: "CEO",
-    date: "2024-04",
-  },
-  {
-    name: "ABC company",
-    title: "CEO",
-    date: "2024-04",
-  },
-];
-
 function Home() {
   return (
     <div className="p-5">
@@ -86,29 +63,6 @@ function Home() {
             ))}
         </div>
       </div>
-
-      <div>
-        <div className="flex justify-between items-center py-4">
-          <h1 className="text-lg font-semibold">Current Projects</h1>
-          <p className="text-sm underline text-indigo-600">See all</p>
-        </div>
-
-        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
-          {projects &&
-            projects.map((project, index) => (
-              <ProjectCard project={project} key={index} />
-            ))}
-        </div>
-      </div>
-
-      {/* <div className="flex">
-        <Sidebar />
-        <div className="w-full ml-16 md:ml-56">
-          <Header />
-          <Outlet />
-          Home
-        </div>
-      </div> */}
     </div>
   );
 }

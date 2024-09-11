@@ -1,5 +1,4 @@
-import { LuBox, LuUser, LuMessageSquare, LuCalendar } from "react-icons/lu";
-import { FaSuitcase } from "react-icons/fa";
+import { LuBox, LuMessageSquare } from "react-icons/lu";
 import { TbUsers } from "react-icons/tb";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -14,10 +13,7 @@ function Sidebar() {
   const SIDEBAR_LINKS = [
     { id: 1, path: "/", name: "Dashboard", icon: LuBox },
     { id: 2, path: "/members", name: "Members", icon: TbUsers },
-    { id: 3, path: "/messages", name: "Messages", icon: LuMessageSquare },
-    { id: 4, path: "/projects", name: "Projects", icon: FaSuitcase },
-    { id: 5, path: "/clients", name: "Clients", icon: LuUser },
-    { id: 6, path: "/work", name: "Work plan", icon: LuCalendar },
+    { id: 3, path: "/product", name: "Product", icon: LuMessageSquare },
   ];
 
   return (

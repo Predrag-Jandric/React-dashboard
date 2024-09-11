@@ -1,9 +1,12 @@
+import ProjectStatistics from "../components/ProjectStatistics";
+
 function Members() {
-    return (
-        <div>
-            Members
-        </div>
-    )
+  return (
+    <div>
+      <ProjectStatistics />
+      Members
+    </div>
+  );
 }
 
-export default Members
+export default Members;
